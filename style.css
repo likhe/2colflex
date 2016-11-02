@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  width: auto;
+}
+
+aside main {
+    flex: 1 100%;
+}
+aside {
+  flex-direction: column;
+  width: 25%;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%
+}
+
+.one {
+  background-color: pink;
+  height: 25%;
+}
+.two {
+  background-color: yellow;
+  height: 25%;
+}
+.three {
+  background-color: orange;
+  height: 25%;
+
+}
+.four {
+  background-color: purple;
+  height: 25%;
+  margin-bottom: 5%;
+}
+
+main {
+  margin: 0;
+  width: 75%;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.five {
+  height: 100px;
+  background-color: blue;
+}
+.six {
+  height: 100px;
+  background-color: red;
+}
+.seven {
+  height: 100px;
+  background-color: green;
+}
+
+@media (min-width: 640px) { aside main {
+display: flex;
+display: -webkit-flex;
+}
+}
